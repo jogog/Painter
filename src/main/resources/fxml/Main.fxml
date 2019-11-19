@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="720.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jogog.painter.application.MainController">
+   <children>
+      <Button fx:id="oval" layoutX="14.0" layoutY="141.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Oval" />
+      <Button fx:id="line" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Line" />
+      <Button fx:id="rect" layoutX="14.0" layoutY="185.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Rect" />
+      <Button fx:id="arcLine" layoutX="14.0" layoutY="97.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Arc" />
+      <Button fx:id="poly" layoutX="14.0" layoutY="224.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Polygon" />
+      <Button fx:id="longLine" layoutX="14.0" layoutY="57.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Long" />
+      <Canvas fx:id="canvas" height="706.0" layoutX="151.0" layoutY="7.0" width="868.0" />
+      <Label fx:id="stat" layoutX="8.0" layoutY="390.0" prefHeight="16.0" prefWidth="122.0" />
+      <Button fx:id="clear" layoutX="14.0" layoutY="594.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Clear" />
+      <Button fx:id="hand" layoutX="14.0" layoutY="259.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Hand" />
+      <Label fx:id="action" layoutX="8.0" layoutY="424.0" prefHeight="16.0" prefWidth="122.0" />
+      <ColorPicker fx:id="color1" layoutX="14.0" layoutY="498.0" prefHeight="26.0" prefWidth="70.0" />
+      <ColorPicker fx:id="color2" layoutX="14.0" layoutY="541.0" prefHeight="26.0" prefWidth="70.0" />
+      <Button fx:id="save" layoutX="14.0" layoutY="637.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Save" />
+      <Button fx:id="connect" layoutX="14.0" layoutY="295.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Connect" />
+      <Button fx:id="erase" layoutX="14.0" layoutY="334.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Erase" />
+      <Button fx:id="savePic" layoutX="14.0" layoutY="672.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Save as" />
+   </children>
+</AnchorPane>
